@@ -1,0 +1,1 @@
+"use strict";function appendToHead(e,d){if("css"==e){var a=document.createElement("link");a.rel="stylesheet",a.href=d,document.head.appendChild(a)}if("js"==e||"javascript"==e){var t=document.createElement("script");t.src=d,document.head.appendChild(t)}}exports.__esModule=!0,exports.appendToHead=void 0,exports.appendToHead=appendToHead;
