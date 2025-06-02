@@ -114,7 +114,7 @@ gulp.task("scss", function () {
     //в папке scss -> папка blocks - это стили для каждого html-блока 
     //discrete папка - содержит firstStyles - в ней стили для первого блока и изначального вида сайта ->
     //secondStyles - всё остальное
-    .src("dev/assets/scss/discrete/*.scss")
+    .src("dev/assets/scss/3_merged_styles/*.scss")
     .pipe(
       sass({
         outputStyle: "compressed",
@@ -255,10 +255,10 @@ gulp.task("export", function () {
 
 
 gulp.task("watch", function () {
-  gulp.watch("dev/pug_blocks/**", gulp.series("pug", "pug_to_html"));
+  gulp.watch("dev/assets/ug_blocks/**", gulp.series("pug", "pug_to_html"));
   gulp.watch("dev/index.pug", gulp.series("pug", "pug_to_html"));
 
-  gulp.watch("dev/pug_blocks/**", gulp.series("pug", "pug_to_php"));
+  gulp.watch("dev/assets/pug_blocks/**", gulp.series("pug", "pug_to_php"));
   gulp.watch("dev/index.pug", gulp.series("pug", "pug_to_php"));
 
 

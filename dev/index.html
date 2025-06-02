@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/firstStyles.min.css" media="none" onload="media='all'">
-    <link rel="stylesheet" href="assets/css/basic_components/normalize.min.css" media="none" onload="media='all'">
+    <link rel="stylesheet" href="assets/css/first_styles.min.css" media="none" onload="media='all'">
+    <link rel="stylesheet" href="assets/css/1_basic_components/reset_css.min.css" media="none" onload="media='all'">
     <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
     <title>Ресторан</title>
     <style>
@@ -12,7 +12,7 @@
       
       
     </style>
-    <script src="assets/js/firstScripts.js" type="module"></script>
+    <script src="assets/js/first_scripts.js" type="module"></script>
   </head>
   <script async="">
     window.onload = function() {
@@ -34,17 +34,20 @@
         <div class="preloader__item"></div>
       </div>
     </div>
-    <div class="wrapper nav_wrapper nav_wrapper_mobile">
-      <div class="nav"><img class="logo" src="assets/img/2nav/veronica.svg">
-        <div class="burger"><span class="burger__line line1"></span><span class="burger__line line2"></span><span class="burger__line line3"></span></div>
-        <div class="mobile-menu"></div>
+    <div class="header">
+      <div class="header__container container">
+        <div class="header__line">
+          <div class="header__logo"> <img src="assets/img/1_header/logo.svg" alt="logo"></div>
+          <div class="nav"> <a class="nav__link" href="#">ГЛАВНАЯ</a><a class="nav__link" href="#">МЕНЮ</a><a class="nav__link" href="#">О НАС</a><a class="nav__link" href="#">БРОНЬ</a></div>
+          <div class="cart"> <a class="cart__link" href="#"><img class="cart__img" src="assets/img/1_header/cart.svg" alt="buy"></a></div>
+        </div>
       </div>
     </div>
-    <script src="assets/js/basic_components/jquery/jquery.min.js"></script>
+    <script src="assets/js/1_basic_components/jquery/jquery.min.js"></script>
     <script src="https://unpkg.com/imask@6.4.2/dist/imask.js"></script>
-    <script src="assets/js/basic_components/slickslider/slick.min.js"></script>
+    <script src="assets/js/1_basic_components/slickslider/slick.min.js"></script>
     <script src="assets/js/map.js" type="module"></script>
-    <script src="assets/js/secondScripts.js" type="module"></script>
+    <script src="assets/js/second_scripts.js" type="module"></script>
     <script async>
       function appendToHead(a,c){
           if("css"==a)
@@ -57,7 +60,7 @@
               d.src=c,document.head.appendChild(d)}
           }
       
-      appendToHead('css', 'assets/css/secondStyles.min.css');
+      appendToHead('css', 'assets/css/second_styles.min.css');
     </script>
     <script></script>
   </body>
