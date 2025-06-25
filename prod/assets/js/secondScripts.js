@@ -1,1 +1,0 @@
-var IMask=require("https://unpkg.com/imask@6.4.2/dist/imask.js");document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".form__input_phone");IMask(e,{mask:"+{7}(000)000-00-00"});console.log($(".slider")),$(".slider").slick({dots:!0,arrows:!0})});

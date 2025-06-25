@@ -1,1 +1,0 @@
-"use strict";exports.__esModule=!0,exports.Slider=exports.a=void 0,exports.a="aezakmi";var Slider=function(){return function(e,t){this.selector=e,this.autoplay=t.autoplay||!1,this.speed=t.speed||100}}();exports.Slider=Slider;

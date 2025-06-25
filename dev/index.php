@@ -12,7 +12,7 @@
       
       
     </style>
-    <script src="assets/js/first_scripts.js" type="module"></script>
+    <script src="assets/js/first_script.js" type="module"></script>
   </head>
   <script async="">
     window.onload = function() {
@@ -40,6 +40,13 @@
           <div class="header__logo"> <img src="assets/img/1_header/logo.svg" alt="logo"></div>
           <div class="nav"> <a class="nav__link" href="#">ГЛАВНАЯ</a><a class="nav__link" href="#">МЕНЮ</a><a class="nav__link" href="#">О НАС</a><a class="nav__link" href="#">БРОНЬ</a></div>
           <div class="cart"> <a class="cart__link" href="#"><img class="cart__img" src="assets/img/1_header/cart.svg" alt="buy"></a></div>
+          <div class="phone"> 
+            <div class="phone__img-wrapper"> <img class="phone__img" src="assets/img/1_header/phone.svg"></div>
+            <div class="phone__number"><a href="#">+999-888-76-54</a></div>
+          </div>
+          <div class="newDiv"></div>
+          <div class="newDiv1"></div>
+          <div class="newDiv2"></div>
         </div>
       </div>
     </div>
@@ -47,7 +54,7 @@
     <script src="https://unpkg.com/imask@6.4.2/dist/imask.js"></script>
     <script src="assets/js/1_basic_components/slickslider/slick.min.js"></script>
     <script src="assets/js/map.js" type="module"></script>
-    <script src="assets/js/second_scripts.js" type="module"></script>
+    <script src="assets/js/second_script.js" type="module"></script>
     <script async>
       function appendToHead(a,c){
           if("css"==a)
